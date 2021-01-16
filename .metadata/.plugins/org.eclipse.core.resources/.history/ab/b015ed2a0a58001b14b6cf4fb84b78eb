@@ -1,0 +1,17 @@
+package com.irelandpenguin_05;
+
+public class Son implements Father {
+
+	@Override
+	public void sing() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void dance() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

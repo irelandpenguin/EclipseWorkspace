@@ -1,0 +1,18 @@
+package com.irelandpenguin_05;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Father f = new Son("irelandpenguin");
+		f.sing();
+		Son son = (Son) f;
+		System.out.println(son.getName());
+		
+		f = new Daugther("irelandpenguin2");
+		f.sing();
+		f.dance();
+		Daugther daugther = (Daugther) f;
+		System.out.println(daugther.getName());
+	}
+
+}

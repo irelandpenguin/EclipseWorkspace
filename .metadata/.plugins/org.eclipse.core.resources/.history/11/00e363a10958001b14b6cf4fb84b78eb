@@ -1,0 +1,5 @@
+package com.irelandpenguin_05;
+
+public interface Father {
+
+}
