@@ -1,0 +1,10 @@
+package com.irelandpenguin_06;
+/**
+ * ½Ó¿Ú
+ * @author irelandpenguin
+ *
+ */
+public interface SingAndDance {
+	public abstract void song();
+	public abstract	void dance();
+}

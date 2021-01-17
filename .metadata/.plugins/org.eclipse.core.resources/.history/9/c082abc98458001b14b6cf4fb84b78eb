@@ -1,0 +1,29 @@
+package com.irelandpenguin_06;
+
+public class Son extends Father implements SingAndDance {
+
+	@Override
+	public void song() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void dance() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void study() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void play() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

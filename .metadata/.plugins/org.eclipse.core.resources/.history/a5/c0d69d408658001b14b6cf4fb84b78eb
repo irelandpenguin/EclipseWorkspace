@@ -16,7 +16,7 @@ public class Person {
 
 	// get and set
 	public void setName(String name) {
-		this.name = name;
+		this.age = age;
 	}
 
 	public String getName() {

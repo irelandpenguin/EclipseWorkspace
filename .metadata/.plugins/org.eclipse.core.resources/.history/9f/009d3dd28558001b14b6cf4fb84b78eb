@@ -1,0 +1,13 @@
+package com.irelandpenguin_06;
+/**
+ * 一个既有继承又有接口实现的类
+ * @author irelandpenguin
+ *
+ */
+public class Test {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
