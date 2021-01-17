@@ -1,0 +1,20 @@
+package com.irelandpenguin_09;
+
+/**
+ * ½Ó¿Ú
+ * 
+ * @author irelandpenguin
+ * @version v1.1
+ * 
+ */
+public interface SingAndDance {
+	/**
+	 * ³ª¸è
+	 */
+	public abstract void sing();
+
+	/**
+	 * ÌøÎè
+	 */
+	public abstract void dance();
+}
