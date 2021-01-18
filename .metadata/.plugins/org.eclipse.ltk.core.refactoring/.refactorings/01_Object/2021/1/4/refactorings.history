@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;01_Object/src/com.irelandpenguin_03.equals&apos;&#x0D;&#x0A;- Original project: &apos;01_Object&apos;&#x0D;&#x0A;- Destination element: &apos;01_Object/src/com.irelandpenguin_03.equals&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.irelandpenguin_02.toString.Student.java&#x0D;&#x0A;     com.irelandpenguin_02.toString.StudentTest.java" description="Copy compilation units" destination="/src&lt;com.irelandpenguin_03.equals" element1="/src&lt;com.irelandpenguin_02.toString{Student.java" element2="/src&lt;com.irelandpenguin_02.toString{StudentTest.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1610982858775" units="2" version="1.0"/>
+</session>

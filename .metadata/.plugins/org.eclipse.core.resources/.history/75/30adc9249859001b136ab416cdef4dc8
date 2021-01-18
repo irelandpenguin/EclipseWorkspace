@@ -1,0 +1,13 @@
+package com.irelandpenguin_02.toString;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		Student stu = new Student("irelandpenguin");
+		System.out.println(stu.hashCode());
+		System.out.println(stu.getClass().getName());
+		System.out.println(stu.toString());
+		System.out.println(stu.getClass().getName()+"@"+Integer.toHexString(stu.hashCode()));
+	}
+
+}

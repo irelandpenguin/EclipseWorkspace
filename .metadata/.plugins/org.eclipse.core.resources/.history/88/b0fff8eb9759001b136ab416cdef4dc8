@@ -1,0 +1,9 @@
+package com.irelandpenguin_02.toString;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+
+	}
+
+}
