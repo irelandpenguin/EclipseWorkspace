@@ -1,0 +1,9 @@
+package com.irelandpenguin.Scanner;
+
+public class ScannerDemo {
+
+	public static void main(String[] args) {
+
+	}
+
+}

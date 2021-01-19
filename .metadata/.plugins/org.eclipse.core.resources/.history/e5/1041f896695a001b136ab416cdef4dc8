@@ -1,0 +1,14 @@
+package com.irelandpenguin_04.String;
+
+public class A_StringDemo {
+
+	public static void main(String[] args) {
+		String s = "helloworld";
+		String s = "helloworld";
+		System.out.println(s==s2);
+		System.out.println(s.equals(s2));
+		
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.irelandpenguin_03.mainshi;
+
+public class C_Demo {
+	public static void main(String[] args){
+		String s = "hello";
+		String s2 = "world";
+		String s3 = "helloworld";
+		System.out.println(s3 == s1 + s2);//先开辟内存，在拼接；地址不一样；
+	}
+}

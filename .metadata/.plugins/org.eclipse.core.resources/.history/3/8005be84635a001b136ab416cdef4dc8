@@ -1,0 +1,11 @@
+package com.irelandpenguin_03.mainshi;
+
+public class B_Demo {
+
+	public static void main(String[] args) {
+		String s = new String("hello");
+		String s2 = new String("hello");
+		System.out.println(s1==s2);
+	}
+
+}

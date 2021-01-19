@@ -1,0 +1,30 @@
+package com.irelandpenguin_04.String;
+
+public class A_StringDemo {
+
+	public static void main(String[] args) {
+		String s = "helloworld";
+		String s2 = "hellowORld";
+		
+		System.out.println(s.equals(s2));//内容是否相同，区分大小写
+		
+		System.out.println(s.equalsIgnoreCase(s2));//内容是否相同，不区分大小写
+		
+		System.out.println(s.contains("wor"));//包含，区分大小
+		System.out.println(s2.contains("wOR"));
+		
+		System.out.println(s.startsWith("hell"));//开始
+		System.out.println(s.startsWith("ell"));
+		
+		System.out.println(s.endsWith("orld"));//结尾
+		System.out.println(s.endsWith("orl"));
+		
+		String s3 = "";
+		System.out.println(s.isEmpty());
+		
+		String s4 = null;
+		System.out.println(s4.isEmpty());
+		
+	}
+
+}
