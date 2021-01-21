@@ -1,0 +1,16 @@
+package com.irelandpenguin_02;
+
+public class FarmerTest {
+
+	public static void main(String[] args) {
+		Farmer f = new Farmer("irelandpenguin",25,"china");
+		Farmer f2 = new Farmer("irelandpenguin2",25,"England");
+		System.out.println(f.toString());
+		System.out.println(f.getName()==f2.getName());
+		System.out.println(f.getAge()==f2.getAge());
+		System.out.println(f.getName().equals(f2.getName()));
+		System.out.println(f.equals(f2));
+		
+	}
+
+}

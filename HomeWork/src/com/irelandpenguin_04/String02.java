@@ -1,0 +1,15 @@
+package com.irelandpenguin_04;
+
+public class String02 {
+
+	public static void main(String[] args) {
+		String s1 = "你好";
+		String s2 = "中国";
+		String s3 = "你好中国";
+		System.out.println(s3.equals("你好" + "中国"));// true
+		System.out.println(s3 == "中国" + "你好");// false
+		System.out.println(s3 =="你好" + "中国");// true
+		System.out.println(s3.equals((s1 + s2)));// true
+	}
+
+}

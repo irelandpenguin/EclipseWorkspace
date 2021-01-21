@@ -1,0 +1,5 @@
+package com.irelandpenguin_01;
+
+public interface Game {
+	public abstract void playerGame();
+}

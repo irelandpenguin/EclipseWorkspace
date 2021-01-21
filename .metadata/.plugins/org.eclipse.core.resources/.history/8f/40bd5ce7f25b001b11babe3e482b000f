@@ -1,0 +1,11 @@
+package com.irelandpenguin_02;
+
+public class Farmer {
+	private String name;
+	private int age;
+	private String address;
+	
+	public Farmer(){}
+	public Farmer
+	
+}

@@ -1,0 +1,13 @@
+package com.irelandpenguin_01;
+
+public class KingImpl implements Game {
+
+	@Override
+	public void playerGame() {
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}
