@@ -10,7 +10,7 @@ public class StringTest {
 		int b = sc.nextInt();
 		double c = sc.nextDouble();
 		System.out.println(a);
-		System.out.println(b);
+		System.out.println(b); 
 		System.out.println(c);
 	}
 

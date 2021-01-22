@@ -1,0 +1,18 @@
+package com.irelandpenguin_04.String;
+
+public class A_StringDemo_01 {
+
+	public static void main(String[] args) {
+		String s = "helloworld";
+		String s2 = "helloWorld";
+		
+		System.out.println(s.equals(s2));
+		System.out.println(s.equalsIgnoreCase(s2));
+		System.out.println(s.contains("wo"));
+		System.out.println(s.startsWith("hell"));
+		System.out.println(s.endsWith("old"));
+		System.out.println(s.isEmpty());
+		
+	}
+
+}

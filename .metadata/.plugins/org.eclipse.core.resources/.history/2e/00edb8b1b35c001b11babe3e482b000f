@@ -1,0 +1,20 @@
+package com.irelandpenguin_05.String;
+
+public class A_StringDemo {
+	public static void main(String[] args){
+		String s = "helloworld,I'm irelandpenguin,it's please to see you.";
+		
+		System.out.println(s.length());
+		System.out.println(s.charAt(2));
+		System.out.println(s.indexOf("irelandpeguin"));
+		System.out.println(s.indexOf("irelandpenguin",2));
+		System.out.println(s.indexOf('d'));
+		System.out.println(s.indexOf('d',2));
+		System.out.println(s.lastIndexOf("see"));
+		System.out.println(s.lastIndexOf("see",2));
+		System.out.println(s.lastIndexOf('t',2));
+		System.out.println(s.lastIndexOf('t'));
+		System.out.println(s.substring(16,18));
+		System.out.println(s.substring(16));
+	}
+}

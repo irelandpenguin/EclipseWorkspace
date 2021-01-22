@@ -6,22 +6,30 @@ public class StringDemo {
 		System.out.println(s1);
 		System.out.println(s1.length());
 
-		byte[] byte_ = {65,66,67, 68, 69 };
+		byte[] byte_ = {65,66,67, 68, 69 };//字节数组转字符串；
 		String s2 = new String(byte_);
 		System.out.println(s2);
 		System.out.println(s2.length());
 
-		String s3 = new String(byte_, 2, 2);
+		String s3 = new String(byte_, 2, 2);//部分字节数组转字符串；
 		System.out.println(s3);
 		System.out.println(s3.length());
 
-		char[] char_ = { 'a', 'b', 'c', 'd', 'e' };
+		char[] char_ = { 'a', 'b', 'c', 'd', 'e' };//字符数组转字符串
 		String s4 = new String(char_);
 		System.out.println(s4);
 		System.out.println(s4.length());
 
-		String s5 = new String(char_, 2, 2);
+		String s5 = new String(char_, 2, 2);//部分数组转字符串
 		System.out.println(s5);
 		System.out.println(s5.length());
+		
+		String s6 = new String("hello,world");
+		System.out.println(s6);
+		System.out.println(s6.length());
+		
+		String s7 = "hello"; 
+		s7+="world";
+		System.out.println(s7);
 	}
 }

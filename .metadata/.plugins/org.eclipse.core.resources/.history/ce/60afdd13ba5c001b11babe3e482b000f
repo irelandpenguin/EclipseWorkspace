@@ -1,0 +1,13 @@
+package com.irelandpenguin_06.String;
+
+public class A_StringDemo {
+
+	public static void main(String[] args) {
+		String s = "hello,irelandpenguin";
+		char[] array = s.getBytes();
+		for (int i = 0; i < array.length; i++) {
+			System.out.println(array[i]);
+		}
+	}
+
+}

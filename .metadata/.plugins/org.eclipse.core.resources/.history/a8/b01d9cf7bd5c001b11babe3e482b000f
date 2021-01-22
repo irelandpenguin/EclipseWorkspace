@@ -1,0 +1,16 @@
+package com.irelandpenguin_05;
+
+public class String03 {
+
+	public static void main(String[] args) {
+		String s = "helloboy";
+		String s2 = new String();
+		char[] array = s.toCharArray();
+		for (int i = 0; i < array.length; i++) {
+			s2 += String((array[i]-31));
+//			System.out.println(s2);
+		}
+		System.out.println(s2);
+	}
+
+}
