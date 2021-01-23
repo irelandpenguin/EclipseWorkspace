@@ -1,0 +1,28 @@
+package com.irelandpenguin_05;
+
+import java.util.Scanner;
+
+public class String02 {
+	public static void main(String[] args){
+		Scanner sc = new Scanner(System.in);
+		String str = sc.nextLine();
+		char[] array = str.toCharArray();
+		int lowerCase = 0;
+		int upperCase = 0;
+		@SuppressWarnings("unused")
+		int num = 0;
+		for (int i = 0; i < array.length; i++) {
+			char tmp = array[i];
+			if (tmp>'a'&&tmp<'z') {
+				lowerCase++;
+			}
+			if(tmp>'A'&&tmp<'Z'){
+				upperCase++;
+			}
+			if(tmp>'0'&&tmp<'9'){
+				num++;
+			}
+		}
+		System.out.println("lower case:"+lowerCase+",upper case:"+upperCase+"number:"+num);
+	}
+}

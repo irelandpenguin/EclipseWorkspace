@@ -1,18 +1,57 @@
-package com.irelandpenguin_05;
+/*package com.irelandpenguin_05;
+
+import java.util.Scanner;
 
 public class String02 {
 	public static void main(String[] args){
-		String s = "hello, welcome to the world. today is 2018.3.7 HAPPY BIRTHDAY!";
-		char[] array = s.toCharArray();
-		int count = 0;
-		int count2 = 0;
+		Scanner sc = new Scanner(System.in);
+		String str = sc.nextLine();
+		char[] array = str.toCharArray();
+		int lowerCase = 0;
+		int upperCase = 0;
+		int num = 0;
 		for (int i = 0; i < array.length; i++) {
-			if (array[i]>'a'&&array[i]<'z') {
-				count+=1;
-			}else if(array[i]>'A'&&array[i]<'Z'){
-				count2+=1;
+			char tmp = array[i];
+			if (tmp>'a'&&tmp<'z') {
+				lowerCase++;
+			}
+			if(tmp>'A'&&tmp<'Z'){
+				upperCase++;
+			}
+			if(tmp>'0'&&tmp<'9'){
+				num++;
 			}
 		}
-		System.out.println("lower case:"+count+",upper case:"+count2);
+		System.out.println("lower case:"+lowerCase+",upper case:"+upperCase+",number:"+num);
+	}
+}
+*/
+//2. 键盘录入一段英文，比如:hello, welcome to the world. today is 2018.3.7 HAPPY BIRTHDAY!，单词之间默认用空格隔开。
+//1）统计大写字母字符，小写字母字符，数字字符出现的次数;
+//2）统计字符串"hello", "world"出现的次数;
+//3）统计字符串中包含"o"的单词个数。
+
+
+
+package com.irelandpenguin_05;
+import java.util.Scanner;
+class String02{
+	public static void main(String[] args){
+		Scanner sc = new Scanner(System.in);
+		String str = sc.nextLine();
+		int upperCase = 0,lowerCase = 0,num =0;
+		for (int i = 0;i<str.length();i++){
+			char tmp=str.charAt(i);
+			if (tmp>'A'&&tmp<'Z'){
+				upperCase++;
+			}
+			if (tmp>'a'&&tmp<'z'){
+				lowerCase++;
+			}
+			if (tmp>'0'&&tmp<'9'){
+				num++;
+			}
+		}
+		System.out.println("upper case:"+upperCase+",lower case:"+lowerCase+",number:"+num);
 	}
 }

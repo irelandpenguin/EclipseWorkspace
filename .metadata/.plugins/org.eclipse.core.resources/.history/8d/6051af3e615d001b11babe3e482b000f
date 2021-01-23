@@ -1,0 +1,17 @@
+//3. 查找字符串"today, we will study another string, this string is import for us, now begin the string!"
+//中包含的"string", 输出它们的所有位置。
+package com.irelandpenguin_05;
+
+public class String04 {
+
+	public static void main(String[] args) {
+		String s = "today, we will study another string, this string is import for us, now begin the string!";
+		String target = "string";
+		int index = s.indexOf(target);
+		while (index!=-1){
+			System.out.println(index);
+			index = s.indexOf(target,index+6);
+		}
+	}
+
+}
