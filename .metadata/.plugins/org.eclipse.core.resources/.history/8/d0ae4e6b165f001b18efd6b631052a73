@@ -1,0 +1,11 @@
+package com.irelandpenguin_01;
+
+public class B_StringBuffer {
+
+	public static void main(String[] args) {
+		StringBuffer sb = new StringBuffer("hello,world");
+		sb.append("hello,world");
+		sb.append("hello,irelandpenguin");
+	}
+
+}

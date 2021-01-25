@@ -1,0 +1,9 @@
+package com.irelandpenguin.String;
+
+public class String {
+
+	public static void main(String[] args) {
+
+	}
+
+}

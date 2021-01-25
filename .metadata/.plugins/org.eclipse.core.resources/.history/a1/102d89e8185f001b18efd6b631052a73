@@ -1,0 +1,37 @@
+package com.irelandpenguin_01;
+
+public class B_StringBuffer {
+
+	public static void main(String[] args) {
+		//append
+		//把任意类型数据添加到可变字符串，返回本身；
+		StringBuffer sb = new StringBuffer("hello,world");
+		sb.append("hello,world");
+		sb.append(true);
+		sb.append(23);
+		sb.append(24.23);
+		sb.append(3.14f);
+		sb.append(12l);
+		sb.append('a');
+		System.out.println(sb);
+		
+		//链式编程
+		sb.append("hello,world").append("hello,irelandpenguin");
+		System.out.println(sb);
+		
+		char[] array= new char[] {'a','b','c','d','e'};
+		sb.append(array);
+		System.out.println(sb);
+		sb.append(array,2,3);
+		System.out.println(sb);
+		
+		
+		//insert
+		StringBuffer sb2 = new StringBuffer("helloworld");
+		sb2.insert(2, "hello,irelandpenguin");
+		System.out.println(sb2);
+		
+		
+	}
+
+}

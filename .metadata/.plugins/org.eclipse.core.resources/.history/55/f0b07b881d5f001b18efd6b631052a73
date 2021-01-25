@@ -1,0 +1,19 @@
+package com.irelandpenguin_01;
+
+public class D_StringBuffer {
+
+	public static void main(String[] args) {
+		StringBuffer sb = new StringBuffer("helloworld");
+		sb.replace(0, sb.length(), "hello,irelandpenguin");
+		System.out.println(sb);
+		sb.reverse();
+		System.out.println(sb);
+		sb.reverse();
+		
+		StringBuffer sb3 = new StringBuffer("hello,world");
+		sb3.setCharAt(0, "h");
+		System.out.println(sb3);
+		
+	}
+
+}

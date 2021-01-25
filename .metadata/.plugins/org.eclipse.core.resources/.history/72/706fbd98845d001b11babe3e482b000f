@@ -1,0 +1,27 @@
+package com.irelandpenguin.String;
+
+public class String01 {
+
+	public static void main(String[] args) {
+		String s = new String();
+		System.out.println(s.length());
+		
+		
+		byte[] bye = new byte[] { 65, 66, 67, 68, 69, 70 };
+		String s = new String(bye);
+		System.out.println(s);
+		System.out.println(s.length());
+		s = new String(bye, 0, 4);
+		System.out.println(s);
+		System.out.println(s.length());
+
+		char[] c = new char[] { 'a', 'b', 'c', 'd', 'e', 'f' };
+		s = new String(c);
+		System.out.println(s);
+		s = new String(c, 2, 3);
+		System.out.println(s);
+
+		s = new String("helloworld");
+		System.out.println(s);
+	}
+}

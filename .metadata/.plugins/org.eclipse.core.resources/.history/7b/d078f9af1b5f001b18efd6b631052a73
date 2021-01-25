@@ -1,0 +1,11 @@
+package com.irelandpenguin_01;
+
+public class D_StringBuffer {
+
+	public static void main(String[] args) {
+		StringBuffer sb = new StringBuffer("helloworld");
+		sb.replace(1, sb.length(), "hello,irelandpenguin");
+		System.out.println(sb);
+	}
+
+}

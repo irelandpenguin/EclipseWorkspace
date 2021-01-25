@@ -1,0 +1,16 @@
+package com.irelandpenguin.String;
+
+import java.lang.Integer;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		Student s = new Student("irelandpenguin",25);
+		s.hello("irelandpenguin2");
+		System.out.println(s.hashCode());
+		System.out.println(s.getClass().getName());
+		System.out.println(s.toString());
+		System.out.println(s.getClass().getName()+"@"+new Integer.toHexString(s.hashCode()));
+	}
+
+}

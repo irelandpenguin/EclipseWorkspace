@@ -1,0 +1,65 @@
+/*package com.irelandpenguin.String;
+
+public class String01 {
+
+	public static void main(String[] args) {
+		String s2 = new String();
+		System.out.println(s2.length());
+		
+		
+		byte[] bye = new byte[] { 65, 66, 67, 68, 69, 70 };
+		String s = new String(bye);
+		System.out.println(s);
+		System.out.println(s.length());
+		s = new String(bye, 0, 4);
+		System.out.println(s);
+		System.out.println(s.length());
+
+		char[] c = new char[] { 'a', 'b', 'c', 'd', 'e', 'f' };
+		s = new String(c);
+		System.out.println(s);
+		System.out.println(s.length());
+		s = new String(c, 2, 3);
+		System.out.println(s);
+		System.out.println(s.length());
+		
+
+		s = new String("helloworld");
+		System.out.println(s);
+		System.out.println(s.length());
+		
+	}
+}*/
+
+
+package com.irelandpenguin.String;
+
+class String01{
+	public static void main(String[] args){
+		String s = new String();
+		System.out.println(s.length());
+		System.out.println(s);
+		
+		byte[] bye = new byte[] {65,66,67,68,69,70};
+		s = new String(bye);
+		System.out.println(s);
+		System.out.println(s.length());
+		s = new String(bye,2,3);
+		System.out.println(s);
+		System.out.println(s.length());
+		
+		
+		char[] c = new char[] {'a','b','c','d','e'};
+		s = new String(c);
+		System.out.println(s);
+		System.out.println(s.length());
+		s = new String(c,2,3);
+		System.out.println(s);
+		System.out.println(s.length());
+		
+		s = new String("hello,world");
+		System.out.println(s);
+		System.out.println(s.length());
+		
+	}
+}

@@ -1,0 +1,18 @@
+package com.irelandpenguin_01;
+
+public class C_StringBuffr {
+
+	public static void main(String[] args) {
+		//delete
+		//deleteCharAt
+		StringBuffer s = new StringBuffer();
+		s.append("hello").append("world").append("irelandpenguin");
+		s.delete(2,3);
+		System.out.println(s);
+		s.deleteCharAt(2);
+		System.out.println(s);
+		
+	}
+
+}
+	
