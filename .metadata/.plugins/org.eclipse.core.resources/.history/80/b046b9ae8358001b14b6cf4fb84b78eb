@@ -1,6 +1,0 @@
-package com.irelandpenguin_06;
-
-public interface SingAndDance {
-	public abstract void song();
-	public abstract	void dance();
-}

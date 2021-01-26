@@ -1,0 +1,14 @@
+//2. 查找可变字符串"today, we will study another string, this string is import for us, now begin the string!"中包含的"string", 输出它们的所有位置。
+package com.irelandpenguin01;
+
+public class Substring04 {
+	public static void main(String[] args){
+		StringBuffer sb = new StringBuffer("today, we will study another string, this string is import for us, now begin the string!");
+		String str = "string";
+		int index = sb.indexOf(target);
+		while(index!=-1){
+			System.out.println(index);
+			index = sb.indexOf(target,index+6);
+		}
+	}
+}

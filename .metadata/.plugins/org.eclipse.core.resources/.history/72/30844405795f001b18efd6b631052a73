@@ -1,0 +1,15 @@
+//对字符串对象"helloboy"进行加密，要求使用可变字符串添加密文字符。加密后的密文是"IFMMPCPZ"，打印输出该密文。(思路：根据字符的ASCII码可知，小写字母与大写字母数值差为32。即 'h'-32就是字符'H')
+package com.irelandpenguin01;
+
+public class Append01 {
+
+	public static void main(String[] args) {
+		StringBuffer sb = new StringBuffer("helloboy");
+		for (int i = 0; i<sb.length();i++){
+			char tmp = (char)(sb.charAt(i)+31);
+			sb.setCharAt(i, tmp);
+		}
+		System.out.println(sb);
+	}
+
+}
