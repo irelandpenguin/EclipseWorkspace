@@ -1,0 +1,9 @@
+package com.irelandpenguin_02;
+
+public class A_BinarySearch {
+
+	public static void main(String[] args) {
+
+	}
+
+}

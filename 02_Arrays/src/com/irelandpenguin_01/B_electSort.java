@@ -1,0 +1,35 @@
+package com.irelandpenguin_01;
+
+public class B_electSort {
+
+	public static void main(String[] args) {
+		int[] array = new int[] {12,24,1,36,98};
+		selectSort(array);
+		pprint(array);
+		
+	}
+	
+	public static void selectSort(int[] array){
+		for(int i = 0;i<array.length;i++){
+			for(int j = i+1;j<array.length;j++){
+				if(array[i]>array[j]){
+					int tmp = array[i];
+					array[i] = array[j];
+					array[j] = tmp;
+				}
+			}
+		}
+	}
+	
+	public static void pprint(int[] array){
+		System.out.print("[");
+		for(int i = 0;i<array.length;i++){
+			if(i!=array.length-1){
+				System.out.print(array[i]+", ");
+			}else{
+				System.out.println(array[i]+"]");
+			}
+		}
+	}
+
+}

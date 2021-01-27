@@ -1,0 +1,28 @@
+package com.irelandpenguin_02;
+
+public class A_BinarySearch {
+
+	public static void main(String[] args) {
+		int[] array = new int[] {1,2,3,4,5,6};
+		int target = 2;
+		System.out.println(binarySearch(array,target));
+	}
+
+	public static int binarySearch(int[] array, int target) {
+		int max = array.length - 1, min = 0, mid = (max + min) / 2;
+		for(int i = 0; i <= mid;i++){
+			if (target != array[mid]) {
+				if (target < array[mid]) {
+					max = mid - 1;
+					mid = (max+mid)/2;
+				}else{
+					min = mid+1;
+					mid = (max+mid)/2;
+				}
+			}
+		}
+	return mid; 
+	}
+	
+	
+}

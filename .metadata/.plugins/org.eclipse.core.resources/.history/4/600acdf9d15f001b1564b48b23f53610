@@ -1,0 +1,26 @@
+package com.irelandpenguin_02;
+
+import java.util.Scanner;
+public class C_Test {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String s = sc.nextLine();
+		int numChar = s.length();
+		if (numChar%2 == 0){
+			if((new StringBuffer(s.substring(0,numChar/2+1)).reverse().toString()) == (s.substring(numChar/2+1))){
+				System.out.println("symmetry");
+			}else{
+				System.out.println("asymmetry");
+			}
+		}else{
+			if (new StringBuffer(s.substring(0,(numChar+1)/2-1)).reverse().toString()==s.substring((numChar+1)/2+1)){
+				System.out.println("symmetry");
+			}else{
+				System.out.println("asymmetry");
+			}
+		}
+		
+	}
+
+}

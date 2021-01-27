@@ -14,3 +14,6 @@ public class Scannenr {
 		System.out.println("int:"+i+",String:"+s+",boolean:"+b+",double:"+d+",float:"+f);
 	}
 }
+
+
+

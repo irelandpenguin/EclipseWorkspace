@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;A_BinarySearch.java&apos; to &apos;02_Arrays/src/com.irelandpenguin_02&apos;&#x0D;&#x0A;- Original project: &apos;02_Arrays&apos;&#x0D;&#x0A;- Destination element: &apos;02_Arrays/src/com.irelandpenguin_02&apos;&#x0D;&#x0A;- Original element: &apos;com.irelandpenguin_01.A_BinarySearch.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;com.irelandpenguin_02" element1="/src&lt;com.irelandpenguin_01{A_BinarySearch.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1611757453219" units="1" version="1.0"/>
+</session>

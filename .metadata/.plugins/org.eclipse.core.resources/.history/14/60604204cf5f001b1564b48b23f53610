@@ -1,0 +1,47 @@
+package com.irelandpenguin_02;
+
+public class B_Test {
+
+	public static void main(String[] args) {
+		String  s = "hello,world";
+		String result = reverseString(s);
+		System.out.println(result);
+		result = reverseString2(s);
+		System.out.println(result);
+		result = reverseString3(s);
+		System.out.println(result);
+		result = reverseString4(s);
+		System.out.println(result);
+		
+	}
+
+	public static String reverseString(String s) {
+		String str = "";
+		for (int i = s.length() - 1; i > 0; i--) {
+			str += s.charAt(i);
+		}
+		return str;
+	}
+
+	public static String reverseString2(String s) {
+		String str = "";
+		char[] array = s.toCharArray();
+		for (int i = array.length-1; i > 0; i--) {
+			str += array[i];
+		}
+		return str;
+	}
+	public static String reverseString3(String s ){
+		String str = "";
+		for (int i = s.length()-1;i>0;i--){
+			str += s.substring(i,i+1);
+		}
+		return str;
+	}
+	
+	public static String reverseString4(String s){
+		StringBuffer sb = new StringBuffer(s);
+		return sb.reverse().toString();
+	}
+
+}
