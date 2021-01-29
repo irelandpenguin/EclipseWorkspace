@@ -1,0 +1,30 @@
+package com.irelandpenguin01;
+
+import java.util.Scanner;
+
+public class IntegerAndStringBuilder {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String s = sc.nextLine();
+		int upperCase = 0, lowerCase = 0, number = 0;
+		for (int i = 0; i < s.length(); i++) {
+			char tmp = s.charAt(i);
+			if (Character.isLetter(tmp)) {
+				if (Character.isUpperCase(tmp)) {
+					upperCase++;
+				}
+				if (Character.isLowerCase(tmp)) {
+					lowerCase++;
+				}
+			}
+			if (Character.isDigit(tmp)) {
+				number++;
+			}
+		}
+		System.out.println("upper case:" + upperCase + "lower case:"
+				+ lowerCase + "number:" + number);
+		sc.close();
+	}
+
+}

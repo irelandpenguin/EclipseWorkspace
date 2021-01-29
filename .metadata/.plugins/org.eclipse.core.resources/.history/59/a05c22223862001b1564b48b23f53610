@@ -1,0 +1,27 @@
+package com.irelandpenguin01;
+
+public class DataStructure03 {
+
+	public static void main(String[] args) {
+		int[] array = new int[] {29, 36, 57, 112, 314, 421, 630, 841, 1090, 5200};
+		int result = binSearch(array,630);
+		System.out.println(result);
+		
+	}
+	
+	public static int binSearch(int[] array,int value){
+		int max = array.length-1,min = 0;
+		while(min<=max){
+			int mid = (max+min)/2;
+			if (array[mid]==value){
+				return mid;
+			}
+			if(array[mid]>value){
+				max = mid -1; 
+			}else{
+				min = mid+1;
+			}
+		}
+		return -1;
+	}
+}

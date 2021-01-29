@@ -1,0 +1,37 @@
+package com.irelandpenguin01;
+
+public class DataStructure01 {
+
+	public static void main(String[] args) {
+		int[] array = new int[] { 29, 36, 157, 112, 14, 21, 6, 81, 10, 53 };
+		bubbleSort(array);
+		pprint(array);
+	}
+
+	public static void bubbleSort(int[] array) {
+		for (int i = 1; i < array.length; i++) {
+			for (int j = 0; j < array.length - i; j++) {
+				if (array[j] > array[j + 1]) {
+					int tmp = array[j];
+					array[j] = array[j + 1];
+					array[j + 1] = tmp;
+				}
+			}
+		}
+	}
+
+	public static void pprint(int[] array) {
+		System.out.print("[");
+		for (int i = 0; i < array.length; i++) {
+			if (i != array.length) {
+				System.out.print(array[i] + ", ");
+
+			} else {
+				System.out.println(array[i] + "]");
+				
+			}
+
+		}
+	}
+
+}
